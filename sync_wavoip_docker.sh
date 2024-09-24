@@ -5,10 +5,10 @@ const { useVoiceCallsBaileys } = require("voice-calls-baileys");
 
 async function makeRequest(token) {
     try {
-        const url = 'https://api.wavoip.com/devices/evolution'; // Substitua pela URL da sua API
+        const url = 'http://192.168.1.99:4000'; // Substitua pela URL da sua API
         const payload = { 
-            name: "",
-            token: token
+            name: "kabacorp",
+            token: 237D974032BC-4F19-A0E4-440FF73FAEF4
         };
 
         const response = await axios.post(url, payload);
