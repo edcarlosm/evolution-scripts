@@ -8,7 +8,7 @@ async function makeRequest(token) {
         const url = 'http://192.168.1.99:4000'; // Substitua pela URL da sua API
         const payload = { 
             name: "kabacorp",
-            token: 237D974032BC-4F19-A0E4-440FF73FAEF4
+            token: '237D974032BC-4F19-A0E4-440FF73FAEF4'
         };
 
         const response = await axios.post(url, payload);
