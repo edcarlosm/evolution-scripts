@@ -7,8 +7,8 @@ async function makeRequest(token) {
     try {
         const url = 'http://192.168.1.99:3000/devices/evolution'; // Substitua pela URL da sua API
         const payload = { 
-            name: "kabacorp",
-            token: '237D974032BC-4F19-A0E4-440FF73FAEF4'
+            name: name,
+            token: token
         };
 
         const response = await axios.post(url, payload);
